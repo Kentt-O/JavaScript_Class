@@ -1,8 +1,14 @@
 let testScores = [40,50,22,55,70,78,80,90];
 
-let answer1 = testScores.filter((num)=>{
-    return num >= 70;
-})
+function returnTestScoresAboveSeventy(testScores){
+
+    let answer1 = testScores.filter((gradesAboveSeventy)=>{
+        return gradesAboveSeventy >= 70;
+    })
+    return answer1;
+}
+
+
 console.log(answer1);
 
 
@@ -28,3 +34,5 @@ for (let name of clubMembers) {
   text += name;
   console.log(text);
 }
+
+
