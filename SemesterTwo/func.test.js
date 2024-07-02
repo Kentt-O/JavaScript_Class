@@ -1,8 +1,8 @@
 const {returnTestScoresAboveSeventy} = require("./func.js");
 
 test("find student scores that are above 70",  () => {
-    let numOne = 2;
-    let Two = 5;
-    let answer = calculateArea(2, 5)
-    expect(answer).toBe(10); 
+    let testScores = [40,50,22,55,70,78,80,90];
+    let answer = returnTestScoresAboveSeventy(testScores)
+    expect(answer).toEqual([70,78,80,90]); 
 });
+
