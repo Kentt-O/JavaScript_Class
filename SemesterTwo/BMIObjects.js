@@ -10,17 +10,12 @@ const mark = {
 
 };
 
-const john = {
-    fullName : 'John Smith',
-    mass : 92,
-    height : 1.95,
+const john = Object.create(mark);
+    fullName : 'John Smith';
+    mass : 92;
+    height : 1.95;
 
-    calcBMI : function (){
-        this.bmi = this.mass / (this.height ** 2)
-        return this.bmi
-    },
-
-};
+    
 
 mark.calcBMI();
 john.calcBMI();
