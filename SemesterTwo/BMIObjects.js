@@ -7,8 +7,8 @@ const mark = {
         this.bmi = this.mass / (this.height ** 2)
         return this.bmi
     },
-
 };
+
 
 const john = Object.create(mark);
 john.fullName = 'John Smith';
