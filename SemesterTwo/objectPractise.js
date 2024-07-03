@@ -67,7 +67,7 @@ console.log(JSON.stringify(Kent));
 console.log(JSON.stringify(Sarah));
 
 console.log(JSON.parse('{"firstName":"Sarah","lastName":"Smith","birthYear":1990,"jobTitle":"Product Manager","hobbies":["painting","traveling","reading"],"friends":["John","Emily","Samantha"],"hasDriverslincense":true}'));
-/*
+
 const cloneKent = {...Kent};
 console.log(cloneKent);
 cloneKent.firstName = 'Cloned';
